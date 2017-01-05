@@ -8,3 +8,12 @@ class PHP7{
 }
 
 $obj = new PHP7();
+
+class Test{
+  
+  public function test(){
+    return 'test.php';
+  }
+}
+
+$obj = new Test();
